@@ -1,0 +1,36 @@
+.header {
+text-align: center;
+font-size: 35px;
+margin: 30px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 102%;
+  border-bottom-style: solid;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+#logotext {
+float: right;
+weight: bold;
+position: absolute;
+left: 1310px;
+top: -10px;
+font-size:23px;
