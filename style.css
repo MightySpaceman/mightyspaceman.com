@@ -39,8 +39,8 @@ font-size:23px;
 #logo {
 height: 60px;
 position: absolute;
-top: 0px;
-left: 1153px;
+top: 0vw;
+left: 1000vw;
 }
 .main-text {
 text-decoration: none;
