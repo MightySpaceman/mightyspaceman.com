@@ -39,7 +39,7 @@ font-size:23px;
 #logo {
 height: 60px;
 position: absolute;
-top: 0px;
+top: 0vw;
 left: 100vw;
 }
 .main-text {
