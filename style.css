@@ -38,7 +38,7 @@ font-size:23px;
 }
 #logo {
 height: 60px;
-position: relative;
+position: absolute;
 top: 0vw;
 left: 80vw;
 }
