@@ -55,7 +55,7 @@ a {
 }
 
 #sofiabotimage {
-	border-radius: 60px;
+	border-radius: 45px;
 	height: 250px;
 	margin: 20px;
 	border: 4px solid white;
@@ -64,7 +64,7 @@ a {
 .earthkamimgs {
 	height:400px;
 	margin:20px;
-	border-radius: 30px;
+	border-radius: 25px;
 	border: 4px solid white;
 }
 
