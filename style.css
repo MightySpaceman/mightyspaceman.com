@@ -1,17 +1,13 @@
-.header {
-text-align: center;
-font-size: 35px;
-margin: 30px;
-}
+/* universal CSS*/
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #222;
   position: fixed;
   top: 0;
   left: 0px;
   width: 102%;
   border-bottom-style: solid;
-  
+  opacity: 0.9;
 }
 
 .navbar a {
@@ -29,59 +25,12 @@ font-family: arial black;
 background: #ddd;
 color: black;
 }
-#logotext {
-float: right;
-position: absolute;
-left: 1310px;
-top: -10px;
-font-size:23px;
-}
-#logo {
-height: 60px;
-position: absolute;
-top: 0vw;
-left: 80vw;
-}
-.main-text {
-text-decoration: none;
-font-size: 30px;
-text-align: center;
-font-family: arial black;
-padding: 30px;
-margin: 50px;
-}
-.main-text2 {
-text-decoration: none;
-font-size: 15px;
-text-align: center;
-font-family: arial black;
-padding: 40px;
-margin: 50px;
-}
-#button2 {
-float: center;
-color: #f2f2f2;
-text-align: center;
-padding: 14px;
-text-decoration: none;
-border: 3px solid white;
-font-family: arial black;
 
+/*specifies that background color will always be the same.*/
+body {
+background-color: #333; color: white;
 }
-#button2:hover {
-background: #ddd;
-color: black;
-border: 10px solid #ddd;
-}
-.text {
-font-size: 20px;
-}
-.images {
 
-}
-#image {
-height:300px;
-}
 .main {
 	padding:20px;
 	margin:50px;
@@ -89,6 +38,90 @@ height:300px;
 	font-family: arial black;
 	font-size: 25px;
 }
-.iframe {
+
+.main a {
+	font-size: 40px;
+}
+
+a {
+	text-decoration: underline;
+	color:white;
+}
+	
+	/*index.html*/
+	
+.earthkam {
+	padding:10px;
+}
+
+#sofiabotimage {
+	border-radius: 60px;
+	height: 350px;
+	margin: 20px;
+	border: 4px solid white;
+}
+
+.earthkamimgs {
+	height:400px;
+	margin:20px;
+	border-radius: 30px;
+	border: 4px solid white;
+}
+
+.standard {
+	margin:20px;
+	text-decoration: none;
+}
+
+/*earthkam.html*/
+#image {
+	height: 300px;
+}
+
+/*projects.html*/
+.list_projects {
+	margin: 20px;
+	border: 4px solid white;
+	border-radius: 20px;
+	list-style: none;
+}
+
+.list_projects ol {
+	list-style: none;
+}
+
+.list_projects ol li {
 	margin: 10px;
+	font-size: 20px;
+}
+
+/*contact.html*/
+.contactbox p {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.contactbox {
+	margin: 20px;
+	border: 4px solid white;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+.contactbox a {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+/*discordserver.html*/
+.discordserver {
+    margin: 20px;
+    border: 4px solid white;
+	border-radius: 20px;
+	font-size: 20px;	
+}
+
+.discordserver a {
+    margin: 20px;
+	font-size: 20px;	
 }
