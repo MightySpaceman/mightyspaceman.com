@@ -98,7 +98,7 @@ a {
 /*contact.html*/
 .contactbox p {
 	font-size: 20px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .contactbox {
