@@ -32,11 +32,11 @@ background-color: #333; color: white;
 }
 
 .main {
-	padding:20px;
-	margin:50px;
+	padding:1.852vw;
+	margin:4.630vw;
 	text-align:center;
 	font-family: arial;
-	font-size: 25px;
+	font-size: 2vw;
 }
 
 .main a {
@@ -51,31 +51,26 @@ a {
 	/*index.html*/
 	
 .earthkam {
-	padding:10px;
+	padding: 0px;
 }
 
 #sofiabotimage {
 	border-radius: 45px;
-	height: 250px;
-	margin: 20px;
-	border: 4px solid white;
+	height: 12vw;
+	margin: 0.648vw;
+	border: 0.370vw solid white;
 }
 
 .earthkamimgs {
-	height:400px;
-	margin:20px;
-	border-radius: 25px;
-	border: 4px solid white;
+	height:340px;
+	margin:0.648vw;
+	border-radius: 2vw;
+	border: 0.370vw solid white;
 }
 
 .standard {
-	margin:20px;
+	margin: 20px;
 	text-decoration: none;
-}
-
-/*earthkam.html*/
-#image {
-	height: 300px;
 }
 
 /*projects.html*/
@@ -124,4 +119,45 @@ a {
 .discordserver a {
     margin: 20px;
 	font-size: 20px;	
+}
+
+.comingsoon {
+	
+}
+
+.comingsoon img {
+	width: 50vw;
+}
+
+.allstuff {
+	border: 0.741vw solid white;
+	margin: 2vw;
+	padding: 60px;
+}
+
+.indextitle {
+	border: 0.741vw solid white;
+	margin: 2vw;
+	padding: 15px;
+}
+
+.indexbox {
+	border: 0.741vw solid white;
+	margin: 2vw;
+	padding: 2vw;
+}
+
+.twitterfeed {
+	border: 0.741vw solid white;
+	margin: 2vw;
+	padding: 2vw;
+	text-align: center;
+}
+
+.twitter-timeline {
+	float: center;
+	align: center;
+	text-align: center;
+	border: 0.741vw solid white;
+	display:block;
 }
