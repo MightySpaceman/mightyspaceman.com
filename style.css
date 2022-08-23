@@ -165,3 +165,10 @@ a {
 .youtubebox {
 	margin: 1vw;
 }
+
+#clock {
+	text-decoration: none;
+	font-size: 2.5vw;
+	font-weight: 700;
+	font-family: silkscreen;
+}
