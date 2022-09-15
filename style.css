@@ -1,24 +1,26 @@
-/* universal CSS*/
+/* Navbar CSS*/
 .navbar {
   overflow: hidden;
   background-color: #222;
   position: fixed;
-  top: 0;
-  left: 0px;
+  top: 0vw;
+  left: 0vw;
   width: 102%;
   border-bottom-style: solid;
   opacity: 0.9;
+  margin: 0vw;
+  padding: 0vw;
+  height: 3.9vw;
 }
 
-/* */
 .navbar a {
 float: left;
 display: block;
 color: #f2f2f2;
 text-align: center;
-padding: 14px 16px;
+padding: 0.8vw 1.481vw;
 text-decoration: none;
-font-size: 23px;
+font-size: 1.6vw;
 font-family: arial black;
 }
 
@@ -27,119 +29,141 @@ background: #ddd;
 color: black;
 }
 
-/*specifies that background color will always be the same.*/
+#navbar_img {
+	height: 2.6vw;
+}
+
+#highlighted {
+	background: #ddd;
+    color: black;
+}
+
+#navbar_highlighted {
+	background: #ddd
+}
+
+.barrier {
+	margin: 3.5vw;
+	height: 1vw;
+}
+
+/* Standard Box CSS */
+.standard {
+	border: 0.741vw solid white;
+	margin: 4.630vw;
+	padding: 1.5vw;
+	font-family: arial;
+	text-align: justify;
+}
+
+.standard p {
+	font-size: 1.2vw;
+}
+
+/* CSS for lists */
+.list ul {
+	display: inline-block;
+	text-align: left;
+	list-style: square;
+}
+
+.list ul a {
+	font-size: 1.5vw;
+	text-decoration: none;
+}
+
+.list li {
+	margin-bottom: 0.8vw;
+}
+
+.list {
+	text-align: center;
+}
+
+/* Footer CSS */
+.footer {
+	margin: 1vw;
+	margin-bottom: 2vw;
+	padding: 0vw;
+	font-family: arial;
+}
+
+.footer p {
+	float: left;
+	margin: 1.75vw;
+}
+
+/* Body CSS */
 body {
 background-color: #333; color: white;
+text-align: center;
+font-family: arial;
+font-size: 1vw;
 }
 
-.main {
-	padding:1.852vw;
-	margin:4.630vw;
-	text-align:center;
-	font-family: arial;
-	font-size: 2vw;
-}
-
-.main a {
-	font-size: 40px;
-}
 
 a {
 	text-decoration: underline;
 	color:white;
 }
 	
-	/*index.html*/
-	
-.earthkam {
-	padding: 0px;
+.body_standard {
+	padding: 0vw;
 }
 
-#sofiabotimage {
-	border-radius: 45px;
-	height: 12vw;
-	margin: 0.648vw;
-	border: 0.370vw solid white;
+/* About.html */
+
+#about_logo {
+	height: 6vw;
 }
 
-.earthkamimgs {
-	height:340px;
-	margin:0.648vw;
-	border-radius: 2vw;
-	border: 0.370vw solid white;
+.about_logo {
+	text-align: center;
+	margin: 4vw;
 }
 
-.standard {
-	margin: 20px;
-	text-decoration: none;
+/*earthkam.html*/
+
+.earthkam_images {
+	margin: 1vw;
+	padding: 1vw;
 }
 
-/*projects.html*/
-.list_projects {
-	margin: 20px;
-	border: 4px solid white;
-	border-radius: 20px;
-	list-style: none;
+.earthkam_images table {
+	float: left;
+	text-align: center;
 }
 
-.list_projects ol {
-	list-style: none;
+.earthkam_images img {
+	width: 28vw;
+	margin: 0.5vw;
+	border: 0.4vw solid white;
+	padding: 0vw;
 }
 
-.list_projects ol li {
-	margin: 10px;
-	font-size: 20px;
+/* book.html */
+
+#book_page_image {
+	width: 65vw;
 }
 
-/*contact.html*/
-.contactbox p {
-	font-size: 20px;
-	text-decoration: none;
-}
-
-.contactbox {
-	margin: 20px;
-	border: 4px solid white;
-	border-radius: 20px;
-	font-size: 20px;
-}
-
-.contactbox a {
-	font-size: 20px;
-	text-decoration: underline;
-}
-
-/*discordserver.html*/
-.discordserver {
-    margin: 20px;
-    border: 4px solid white;
-	border-radius: 20px;
-	font-size: 20px;	
-}
-
-.discordserver a {
-    margin: 20px;
-	font-size: 20px;	
-}
-
-.comingsoon {
-	
-}
-
+/*index.html*/
 .comingsoon img {
 	width: 50vw;
 }
 
-.allstuff {
-	border: 0.741vw solid white;
-	margin: 2vw;
-	padding: 60px;
+.main {
+	padding:1vw;
+	margin: 4.630vw;
+	text-align: center;
+	font-family: arial;
+	font-size: 2vw;
 }
 
 .indextitle {
 	border: 0.741vw solid white;
 	margin: 2vw;
-	padding: 15px;
+	padding: 0.781vw;
 }
 
 .indexbox {
@@ -157,15 +181,12 @@ a {
 
 .twitter-timeline {
 	float: center;
-	align: center;
 	text-align: center;
-	display:block;
-	padding:.5vw;
-}
+	display: block;
+	width: 100%;
+	height: 25vw !important;
+	
 
-.youtubebox {
-	margin: 1vw;
-	padding: .5vw;
 }
 
 #clock {
@@ -174,3 +195,4 @@ a {
 	font-weight: 700;
 	font-family: silkscreen;
 }
+
