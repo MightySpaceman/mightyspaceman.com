@@ -6,6 +6,7 @@ This is the repository for [https://mightyspaceman.com/](https://mightyspaceman.
 - Improved Consistency between pages
 - Display scaling improved
 - Add footer notes
+- Remove twitter feed (display size shenanagins were just too much)
 
 ## To do list for future updates
 - Clean up twitter feed aspect ratio and scaling problems
