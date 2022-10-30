@@ -29,22 +29,24 @@ background: #ddd;
 color: black;
 }
 
-#navbar_img {
-	height: 2.6vw;
-}
-
-#highlighted {
-	background: #ddd;
-    color: black;
-}
-
-#navbar_highlighted {
-	background: #ddd
-}
-
 .barrier {
 	margin: 3.5vw;
 	height: 1vw;
+}
+
+#img_container {
+	float: left;
+    display: block;
+	background: #333;
+    text-align: center;
+    padding: 0.8vw 1.481vw; 
+	height: 3vw;
+}
+
+#img_container img {
+	height: 3vw;
+	position: relative;
+	bottom: 0.3vw;
 }
 
 /* Standard Box CSS */
@@ -90,7 +92,7 @@ color: black;
 
 .footer p {
 	float: left;
-	margin: 1.75vw;
+	margin: 1.5vw;
 }
 
 /* Body CSS */
@@ -114,7 +116,7 @@ a {
 /* About.html */
 
 #about_logo {
-	height: 6vw;
+	height: 12vw;
 }
 
 .about_logo {
@@ -130,15 +132,22 @@ a {
 }
 
 .earthkam_images table {
-	float: left;
 	text-align: center;
+	margin: 0.5vw;
+
 }
 
 .earthkam_images img {
-	width: 28vw;
-	margin: 0.5vw;
-	border: 0.4vw solid white;
-	padding: 0vw;
+	width: 29.6vw;
+}
+
+.earthkam_images td {
+	margin: 0vw;
+	padding: 0.6vw;
+}
+
+.earthkam_images p {
+	margin: 1vw;
 }
 
 /* book.html */
