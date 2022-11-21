@@ -8,4 +8,4 @@ This is the repository for [https://mightyspaceman.com/](https://mightyspaceman.
 - Cleaned up projects page
 
 ## To do list for future updates
-- Ancient Egypt interactive webpage (coming soon - for school)
+- Add Ancient Egypt banner to front page
