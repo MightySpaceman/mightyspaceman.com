@@ -1,5 +1,43 @@
+/*
+<p>
+    Theme:
+    <select id="themeSelect">
+        <option value="system">System</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</p>
+*/
+
+function createThemeSelectionDialog() {
+    let themeSelectParagraph = document.createElement("p");
+    themeSelectParagraph.innerHTML = "Theme: ";
+    let themeSelect = document.createElement("select");
+    themeSelect.id = "themeSelect";
+    let systemOption = document.createElement("option");
+    systemOption.value = "system";
+    systemOption.innerHTML = "System";
+    themeSelect.appendChild(systemOption);
+    let lightOption = document.createElement("option");
+    lightOption.value = "light";
+    lightOption.innerHTML = "Light";
+    themeSelect.appendChild(lightOption);
+    let darkOption = document.createElement("option");
+    darkOption.value = "dark";
+    darkOption.innerHTML = "Dark";
+    themeSelect.appendChild(darkOption);
+    themeSelectParagraph.appendChild(themeSelect);
+    try {
+        document.getElementsByClassName("footer")[0].prepend(themeSelectParagraph);
+    } catch (error) {
+        console.error("Warning: Could not find footer element to add theme selection dialog to.");
+        console.error(error);
+    }
+    return themeSelect;
+}
+
+const themeSelect = createThemeSelectionDialog();
 const themeLink = document.getElementById("themeLink");
-const themeSelect = document.getElementById("themeSelect");
 
 function setTheme(mode) {
     if (mode === "system") {
@@ -45,3 +83,4 @@ window
     });
 
 updateTheme();
+
