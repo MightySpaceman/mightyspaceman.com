@@ -1,0 +1,107 @@
+/* global CSS */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+body {
+    background-color: rgb(7, 0, 14);
+    margin: 0;
+    color: white;
+    font-family: 'Source Code Pro', serif;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 3vw;   
+    margin: 0;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+section {
+    padding: 5vmin;
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+.description {
+    padding: 5vw;
+}
+
+.description p {
+    text-align: justify;
+    font-size: 2.5vmin;
+}
+
+/* Blinker */
+#blink {
+    animation: blinker 1s step-start infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+/* Section transitions (side-entry) */
+.animate {
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    filter: blur(0);
+    opacity: 1;
+}
+
+/* Homepage */
+.one img {
+    height: 30vmin;
+    margin: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socials {
+    margin: 10vmin;
+    padding: 5vmin;
+}
+
+.social {
+    display: inline-block;
+    margin: 2vmin;
+}
+
+.social:hover {
+    transform:translateY(-15%);
+}
+
+.social img {
+    height: 12vmin;
+}
+
+.projects-container {
+    padding: 1vw;
+    margin: 1vw;
+
+    text-align: center;
+}
+
+.projects-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+
+  
