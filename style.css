@@ -1,207 +1,107 @@
-/* Navbar CSS*/
-.navbar {
-  overflow: hidden;
-  background-color: #222;
-  position: fixed;
-  top: 0vw;
-  left: 0vw;
-  width: 102%;
-  border-bottom-style: solid;
-  opacity: 0.9;
-  margin: 0vw;
-  padding: 0vw;
-  height: 3.9vw;
-}
+/* global CSS */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
-.navbar a {
-float: left;
-display: block;
-color: #f2f2f2;
-text-align: center;
-padding: 0.8vw 1.481vw;
-text-decoration: none;
-font-size: 1.6vw;
-font-family: arial black;
-}
-
-.navbar a:hover {
-background: #ddd;
-color: black;
-}
-
-.barrier {
-	margin: 3.5vw;
-	height: 1vw;
-}
-
-#img_container {
-	float: left;
-    display: block;
-	background: #333;
-    text-align: center;
-    padding: 0.8vw 1.481vw; 
-	height: 3vw;
-}
-
-#img_container img {
-	height: 3vw;
-	position: relative;
-	bottom: 0.3vw;
-}
-
-/* Standard Box CSS */
-.standard {
-	border: 0.741vw solid white;
-	margin: 4.630vw;
-	padding: 1.5vw;
-	font-family: arial;
-	text-align: justify;
-}
-
-.standard p {
-	font-size: 1.2vw;
-}
-
-/* CSS for lists */
-.list ul {
-	display: inline-block;
-	text-align: left;
-	list-style: square;
-}
-
-.list ul a {
-	font-size: 1.5vw;
-	text-decoration: none;
-}
-
-.list li {
-	margin-bottom: 0.8vw;
-}
-
-.list {
-	text-align: center;
-}
-
-/* Footer CSS */
-.footer {
-	margin: 1vw;
-	margin-bottom: 2vw;
-	padding: 0vw;
-	font-family: arial;
-}
-
-.footer p {
-	float: left;
-	margin: 1.5vw;
-}
-
-/* Body CSS */
 body {
-background-color: #333; color: white;
-text-align: center;
-font-family: arial;
-font-size: 1vw;
+    background-color: rgb(7, 0, 14);
+    margin: 0;
+    color: white;
+    font-family: 'Source Code Pro', serif;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 3vw;   
+    margin: 0;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+section {
+    padding: 5vmin;
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+.description {
+    padding: 5vw;
+}
+
+.description p {
+    text-align: justify;
+    font-size: 2.5vmin;
+}
+
+/* Blinker */
+#blink {
+    animation: blinker 1s step-start infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+/* Section transitions (side-entry) */
+.animate {
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    filter: blur(0);
+    opacity: 1;
+}
+
+/* Homepage */
+.one img {
+    height: 30vmin;
+    margin: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socials {
+    margin: 10vmin;
+    padding: 5vmin;
+}
+
+.social {
+    display: inline-block;
+    margin: 2vmin;
+}
+
+.social:hover {
+    transform:translateY(-15%);
+}
+
+.social img {
+    height: 12vmin;
+}
+
+.projects-container {
+    padding: 1vw;
+    margin: 1vw;
+
+    text-align: center;
+}
+
+.projects-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
 }
 
 
-a {
-	text-decoration: underline;
-	color:white;
-}
-	
-.body_standard {
-	padding: 0vw;
-}
-
-/* About.html */
-
-#about_logo {
-	height: 12vw;
-}
-
-.about_logo {
-	text-align: center;
-	margin: 4vw;
-}
-
-/*earthkam.html*/
-
-.earthkam_images {
-	margin: 1vw;
-	padding: 1vw;
-}
-
-.earthkam_images table {
-	text-align: center;
-	margin: 0.5vw;
-
-}
-
-.earthkam_images img {
-	width: 29.6vw;
-}
-
-.earthkam_images td {
-	margin: 0vw;
-	padding: 0.6vw;
-}
-
-.earthkam_images p {
-	margin: 1vw;
-}
-
-/* book.html */
-
-#book_page_image {
-	width: 65vw;
-}
-
-/*index.html*/
-.comingsoon img {
-	width: 50vw;
-}
-
-.main {
-	padding:1vw;
-	margin: 4.630vw;
-	text-align: center;
-	font-family: arial;
-	font-size: 2vw;
-}
-
-.indextitle {
-	border: 0.741vw solid white;
-	margin: 2vw;
-	padding: 0.781vw;
-}
-
-.indexbox {
-	border: 0.741vw solid white;
-	margin: 2vw;
-	padding: 2vw;
-}
-
-.twitterfeed {
-	border: 0.741vw solid white;
-	margin: 2vw;
-	padding: 2vw;
-	text-align: center;
-}
-
-.twitter-timeline {
-	float: center;
-	text-align: center;
-	display: block;
-	width: 100%;
-	height: 25vw !important;
-	
-
-}
-
-#clock {
-	text-decoration: none;
-	font-size: 2.5vw;
-	font-weight: 700;
-	font-family: silkscreen;
-}
-
+  

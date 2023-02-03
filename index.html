@@ -1,79 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MightySpaceman</title>
 
-  <title>MightySpaceman</title>
-  <meta name="description" content="The Official MightySpaceman Website">
-  <meta name="author" content="MightySpaceman">
-
-  <meta property="og:title" content="MightySpaceman.com">
-  <meta property="og:type" content="website">
-
-  <meta property="og:url" content="https://mightyspaceman.com/index.html">
-  <meta property="og:description" content="The Official MightySpaceman Website, showcasing all of my many projects.">
-  <meta property="og:image" content="logo.png">
-  <meta name="keywords" content="MightySpaceman, mightyspaceman, space, rockets">
-
-<link id="themeLink" rel="stylesheet" href="dark.css">
-<link rel="icon" type="image/x-icon" href="Images/logo.png">
-<link href='https://fonts.googleapis.com/css?family=Silkscreen' rel='stylesheet'>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/website_icon.png">
+    <script defer src="ui.js"></script>
 </head>
 <body>
+    <div class="container">
+        <section class="one animate">
+            <div class="title standard">
+                <h1>>Obi O'Brien<span id="blink">_</span></h1>
+                <h2>[MightySpaceman]</h2>
+                <img src="./images/website_icon.png">
+            </div>
+        </section>
 
-<!--navigation bar-->
-<div class="navbar">
-  <a href="index.html" id="img_container"><img src="Images/home_button.png"></a>
-  <a href="projects.html" id="nav_link">Projects</a>
-  <a href="contact.html" id="nav_link">Contact</a>
-  <a href="https://www.youtube.com/channel/UCEFAkMvfeYFeYVh_kULUb-g?sub_confirmation=1" target="_blank" rel="noopener noreferrer" id="nav_link">YouTube</a>
-  <a href="book.html" id="nav_link">Book</a>
-  <a href="about.html" id="nav_link">About</a>
-</div>
-<div class="barrier">
-</div>
+        <section class="two animate">
+            <div class="description standard">
+                <h1>>About<span id="blink">_</span></h1>
+            <p>
+                Hi - I'm a Tasmanian amateur programmer, newbie author, and aerospace enthusiast.
+                I live in Hobart, the capital of Tasmania, which is a really nice place, right on a river...
+                most people say that Tasmania is frigid and cold but, I can tell you, it can get warm 
+                (not that the rest of Australia considers 35 degrees particularly 'warm')
+            </p>
+            <p>
+                I am currently fleshing out my knowledge in mainly backend web developement. I'm learning node.js, 
+                as well as setting out to furthermore aid to my understanding of networking in general. I also like 
+                to dabble in a little bit of ethical hacking, and sometimes go down rabbitholes of assorted computer 
+                science thingies.
+            </p>
+            </div>
+        </section>
 
-<!--everything that is not the navbar, seperating the two-->
+        <section class="three animate">
+            <div class="projects">
+                <h1>Projects<span id="blink">_</span></h1>
+                <div class="projects-container">
+                    <a href="https://cookie.mightyspaceman.com" target="_blank"><br>> The (Browser) Cookie Clicker <</a>
+                    <a href="https://earthkam.mightyspaceman.com" target="_blank"><br>> Sally Ride Earthkam Showcase <</a>
+                    <a href="https://ksp2.mightyspaceman.com" target="_blank"><br>> Days Until Kerbal Space Program 2 <</a>
+                    <a href="https://egypt.mightyspaceman.com" target="_blank"><br>> Interactive Egyptian Society Showcase <</a>
+                </div>
+            </div>
+        </section>
 
-<div class="body_standard">
-<div class="standard" style="text-align: center;">
-<h1 style="font-size: 3vw;">Welcome to my website I guess</h1>
-
-<div class="clockcontainter">
-<div id="clock" style="font-family: Silkscreen">clock</div>
-<script src="clock.js"></script>
-</div>
-</div>
-
-<!--Book Coming Soon Section-->
-<a href="https://www.amazon.com/dp/B0BMYP6QW6?ref_=cm_sw_r_cp_ud_dp_R95FS9BT4WSDCXEE34TD" target="_blank" rel="noopener noreferrer">
-<div class="standard" style="text-align: center;">
-<img src="Images/Coming_Soon.webp" style="height: 30vw;"/>
-</div>
-</a>
-
-<hr>
-
-<div class="footer">
-  <p>
-    Theme:
-    <select id="themeSelect">
-      <option value="system">System</option>
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-    </select>
-  </p>
-  <p>
-    Contact: <a href="mailto:spaceman384@outlook.com">spaceman384@outlook.com</a>
-  </p>
-  <p>
-    Mastodon: <a href="https://aus.social/@mightyspaceman">https://aus.social/mightyspaceman</a>
-  </p>
-</div>
-
-</div>
-
-<script src="theme.js"></script>
-
+        <section class="four animate">
+            <div class="standard">
+            <h1>>Contact<span id="blink">_</span></h1>
+            <div class="socials">
+                <div class="social animate">
+                    <a href="mailto:spaceman384@outlook.com"><img src="images/mail.png"></a>
+                </div>
+                <div class="social animate">
+                    <a href="https://aus.social/@mightyspaceman" target="_blank"><img src="images/mastodon.png"></a>
+                </div>
+                <div class="social animate">
+                    <a href="https://discord.gg/AsCeXnMTYZ" target="_blank"><img src="images/discord.png"></a>
+                </div>
+                <div class="social animate">
+                    <a href="https://youtube.com/@mightyspaceman" target="_blank"><img src="images/youtube.png"></a>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+    
+    <footer><p>MightySpaceman</p></footer>
 </body>
 </html>
