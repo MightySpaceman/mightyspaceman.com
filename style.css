@@ -20,6 +20,10 @@ h2 {
     margin: 0;
 }
 
+a:hover {
+    letter-spacing: 0.1vw;
+}
+
 .container {
     scroll-snap-type: y mandatory;
     overflow-y: auto;
